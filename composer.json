@@ -1,0 +1,16 @@
+{
+    "name": "aex/mypackage",
+    "description": "my first package test",
+    "authors": [
+        {
+            "name": "许弟龙",
+            "email": "itfooter@vip.qq.com"
+        }
+    ],
+    "require": {},
+    "autoload":{
+        "psr-4": {
+            "Aex\\Mypackage\\": "src/"
+        }
+    }
+}
